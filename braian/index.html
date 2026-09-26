@@ -66,45 +66,45 @@
 		text-align: center;
 	}
 
-	header p {
+	#header p {
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
 
 		@media screen and (max-width: 736px) {
 
-			header p br {
+			#header p br {
 				display: none;
 			}
 
 		}
 
-	header h2 + p {
+	#header h2 + p {
 		font-size: 1.25em;
 		margin-top: -0.5em;
 		line-height: 1.5em;
 	}
 
-	header h3 + p {
+	#header h3 + p {
 		font-size: 1.1em;
 		margin-top: -0.25em;
 		line-height: 1.5em;
 	}
 
-	header h4 + p,
-	header h5 + p,
-	header h6 + p {
+	#header h4 + p,
+	#header h5 + p,
+	#header h6 + p {
 		font-size: 0.9em;
 		margin-top: -0.6em;
 		line-height: 1.5em;
 	}
 
-	header.major {
+	#header.major {
 		margin: 0 0 2.5em 0;
 		text-align: center;
 	}
 
-		header.major:after {
+		#header.major:after {
 			content: '';
 			border-bottom: solid 2px #e6e6e6;
 			display: block;
@@ -383,7 +383,7 @@
     }
     /* ========== RESPONSIVE ========== */
     @media (max-width: 900px) {
-      ##header .inner {
+      #header .inner {
         grid-template-columns: 1fr;
         text-align: center;
       }
@@ -392,18 +392,18 @@
         height: 200px;
         order: -1;
       }
-      ##header .actions {
+      #header .actions {
         justify-content: center;
       }
-      ##header h1 {
+      #header h1 {
         font-size: 2.2rem;
       }
     }
     @media (max-width: 480px) {
-      ##header {
+      #header {
         padding: 3rem 1.25rem 4rem;
       }
-      ##header h1 {
+      #header h1 {
         font-size: 1.85rem;
       }
       .wrapper.special {
