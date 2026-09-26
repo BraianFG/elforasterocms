@@ -4075,11 +4075,13 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background-color: #f7f7f7;
+		background-color: #210000;
 		color: #999999;
 		padding: 4.5em 0 2.5em 0 ;
 		color: #b0b0b0;
 		text-align: center;
+		    background-image: url(images/overlay.png), url(images/pattern-size1.svg);
+		
 	}
 
 		#footer input, #footer select, #footer textarea {
